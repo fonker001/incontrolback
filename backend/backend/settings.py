@@ -247,5 +247,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", # Dev
     "https://mams-enterprise.co.ke",
     'https://www.mams-enterprise.co.ke', # Prod
+    'https://incontrolfront-tilb.vercel.app',
 
 ]
+
