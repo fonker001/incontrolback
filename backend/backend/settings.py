@@ -162,7 +162,7 @@ DARAJA_SHORTCODE = config('DARAJA_SHORTCODE')
 # DARAJA_PASSKEY = config('DARAJA_PASSKEY')
 HOOK_BASE_URL = config('HOOK_BASE_URL')
 DARAJA_BASE_URL = config('DARAJA_BASE_URL', default='https://sandbox.safaricom.co.ke')
-SANDBOX_TESTING=config("SANDBOX_TESTING")
+
 
 
 # Utility: Generate STK Password dynamically
@@ -250,4 +250,5 @@ CORS_ALLOWED_ORIGINS = [
     'https://incontrolfront-tilb.vercel.app',
 
 ]
+
 
