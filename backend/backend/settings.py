@@ -29,11 +29,7 @@ SECRET_KEY = 'django-insecure-(z%(y)j8=#nf%rq!piaqb%9c37^!4sk63f$x+huy&@mwdh7vv*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "incontrol-lite-pb.onrender.com",
-    "localhost",
-    "127.0.0.1",
-]
+ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
@@ -251,4 +247,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", # Dev
     "https://mams-enterprise.co.ke",
     'https://www.mams-enterprise.co.ke', # Prod
+
 ]
