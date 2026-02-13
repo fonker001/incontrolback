@@ -1,0 +1,24 @@
+# Web Server
+django==6.0
+gunicorn==24.1.1
+uvicorn==0.40.0
+
+# Database & Environment 
+psycopg[binary]>=3.2.0
+python-decouple==3.8
+dj-database-url==3.1.0
+
+# Authentication & API
+djangorestframework==3.16.1
+djangorestframework-simplejwt==5.5.1
+django-cors-headers==4.3.1
+django-filter==25.2
+
+# Integrations
+stripe==14.3.0
+mailjet-rest==1.5.1
+Pillow==12.1.0
+
+# Production Static Files
+whitenoise==6.6.0
+drf-spectacular==0.29.0
